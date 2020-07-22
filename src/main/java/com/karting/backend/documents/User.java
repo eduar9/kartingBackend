@@ -1,11 +1,9 @@
-package com.karting.backend.Documents;
+package com.karting.backend.documents;
 
 
 import com.sun.istack.internal.NotNull;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
-
-import java.io.Serializable;
 
 @Document(collection = "User")
 public class User {
